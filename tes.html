@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link rel="stylesheet" href="test.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Selamat Datang</title>
@@ -34,61 +35,37 @@
               <a class="nav-link" href="" id="home">Kontak<span class="sr-only">(current)</span></a>
             </li>
           </ul>          
-          <a class="waves-effect waves-light btn-large" href="register.html" id="btnlogin"><i class="material-icons right">account_circle</i>Sign Up</a>
+          <a class="waves-effect waves-light btn-large" href="index.html" id="btnlogin"><i class="material-icons right">navigate_next</i>Logout</a>
         </div>
       </nav>
     <!-- End of Navbar -->
 
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container" id="jumbo">
-        <img src="img/Jumbotron.png" alt="" id="jumbo_pic">
-        <h1 class="display-4"><span id="span1">Selamat</span> <span id="span2">Datang</span></h1>
-        <p class="lead">CeMa merupakan website yang membantu mendeteksi
-          kelainan pada mata dan meningkatkan pemahaman
-          masyarakat Indonesia tentang berbagai kelainan pada mata, penyebab-penyababnya serta pentingnya menjaga kesehatan mata</p>
-      </div>
-    </div>
-    <!-- End of Jumbotron -->
 
-    <!-- Content -->
-    <div id="content">
-      <div class="container">
-        <div class="title">
-          <h5>- Mulai Tes Kesehatan Mata -</h5>
-        </div>
-        <div class="column">
-          <a class="waves-effect waves-light btn-large" id="btn-test1" href="tes.html">
-            <img src="img/miopi-test.png" alt="">
-            <h5>Tes Miopi</h5>
+    <!-- TEST PAGE MIOPIA -->
+      <div id="test">
+        <div class="test-container">
+          <h5>Tes <span>Miopi</span></h5>
+          <img src="img/miopi1.jpg" alt="test1">
+          <h6>Pilih jawaban anda terkait gambar diatas!</h6>
+          <div class="option">
+          <a class="waves-effect waves-light btn-large" id="btn-ans1" href="#">
+              <h6>B</h6>
           </a>
-        </div>
-        <div class="column">
-          <a class="waves-effect waves-light btn-large" id="btn-test2" href="#">
-            <img src="img/color-blind.png" alt="">
-            <h5>Tes Buta Warna</h5>
+          <a class="waves-effect waves-light btn-large" id="btn-ans2" href="#">
+              <h6>C</h6>
           </a>
-        </div>
-
-        <hr id="line-break">
-
-        <div id="testi-title">
-          <h5>- Testimoni -</h5>
-        </div>
-
-        <div id="testi">
-          <div class="testi-author">
-            <img src="img/Rectangle 2.png" alt="">
-            <h6>Nadine</h6>
-          </div>
-          <h5 class="comment-title">Cukup akurat dan tampilan bagus</h5>
-          <div class="comment">
-            <p><em>"Saya sudah mencoba untuk tes miopi di website ini, dan saya mendapatkan hasil tes bagaimana perkembangan kesehatan mata saya serta tips menjaga kesehatan mata. Saya merekomendasikan CEMA sebagai layanan tes mata terpercaya"</em></p>
+          <a class="waves-effect waves-light btn-large" id="btn-ans3" href="#">
+              <h6>S</h6>
+          </a>
+          <a class="waves-effect waves-light btn-large" id="btn-ans4" href="#">
+              <h6>E</h6>
+          </a>
           </div>
         </div>
       </div>
-    </div>
 
+    <!-- ENDL -->
+    
     <!-- Footer -->
     <div id="footer">
       <div class="container">
